@@ -4,24 +4,24 @@ html, body {
 }
 body {
   font-family: Arial, sans-serif;
-  background-image: url('image/background.jpg');  /* Ganti dengan URL gambar */
-  background-size: cover;  /* Membuat gambar menutupi seluruh area */
-  background-position: center;  /* Menempatkan gambar di tengah */  
-  background-attachment: fixed; /* Menjaga gambar tetap di tempat saat menggulir halaman */
-  height: 100vh;             /* Pastikan body menutupi seluruh viewport */
-  margin: 0;                 /* Menghapus margin default */
+  background-image: url('image/background.jpg');  
+  background-size: cover;  
+  background-position: center;    
+  background-attachment: fixed; 
+  height: 100vh;      
+  margin: 0;  
 }
 
 .div-background {
 background-image: url('image/background.jpg');
 background-size: cover;
 background-position: center;
-height: 300px;  /* Atur tinggi elemen */
-width: 100%;    /* Membuat elemen selebar halaman */
+height: 300px;  
+width: 100%; 
 }
 
 .message:hover {
-  color: #392727 !important; /* Efek hover menjadi abu-abu terang */
+  color: #392727 !important;
 }
 
 main {
@@ -29,31 +29,31 @@ main {
 }
 
 nav {
-  background-color: transparent;  /* Menghilangkan warna latar belakang navbar */
-  position: sticky;  /* Agar navbar tetap di atas saat scroll */
-  top: 0;  /* Menjaga navbar tetap di atas */
-  z-index: 1000;  /* Agar navbar tetap di atas konten lainnya */ /* Garis putih di bawah navbar */
+  background-color: transparent; 
+  position: sticky; 
+  top: 0;  
+  z-index: 1000;  
 }
 
 .navbar-brand {
-  color: white !important; /* Memastikan "MyBlog" tetap putih */
+  color: white !important; 
 }
 
 
 .navbar-nav .nav-link {
-  color: #392727!important; /* Menetapkan warna tulisan Home, About, Activities, Contact menjadi putih */
+  color: #392727!important; 
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ccc !important; /* Menambahkan efek hover dengan warna yang lebih terang */
+  color: #ccc !important; 
 }
 
 .navbar a, .navbar-brand {
-  color: white !important; /* Mengubah warna teks navbar menjadi putih */
+  color: white !important; 
 }
 
 .navbar a:hover, .navbar-brand:hover {
-  color: #392727 !important; /* Warna saat hover */
+  color: #392727 !important; 
 }
 
 .card{
@@ -64,7 +64,7 @@ nav {
 
 .card-img-top {
   width: 100%;
-  height: 200px; /* Menentukan tinggi gambar agar konsisten */
+  height: 200px; 
   object-fit: cover;
 }
 
@@ -107,10 +107,9 @@ thead th {
     margin-left: 5px;
   }
   
-  /* Section styles */
   .section {
-    max-width: 800px;   /* Lebarnya dibatasi */
-    margin: 0 auto;     /* Tengah secara horizontal */
+    max-width: 800px;   
+    margin: 0 auto;    
     padding: 20px;
     background-color: white !important;
     color: #362121;
@@ -143,8 +142,6 @@ thead th {
     transform: scale(1.05);
   }
   
-  
-  /* Styling untuk container agar konten tetap terpusat */
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -154,21 +151,21 @@ thead th {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;  /* Membuat hero section memenuhi seluruh tinggi layar */
+    height: 100vh; 
     padding: 0 1em;
   }
 
   form {
     width: 100%;
-    max-width: 500px;  /* Ukuran maksimal form */
+    max-width: 500px;
     padding: 20px;
-    background-color: #362121;  /* Memberikan efek gelap dengan transparansi */
+    background-color: #362121;  
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
   form label {
-    color: white;  /* Mengubah warna label menjadi putih */
+    color: white;  
   }
 
 form .mb-3 {
@@ -192,7 +189,7 @@ button[type="submit"]:hover {
 
 
   .profile {
-    margin-right: 2em; /* Menambah jarak antara gambar dan teks */
+    margin-right: 2em; 
   }
   
   .profile-pic {
@@ -204,7 +201,7 @@ button[type="submit"]:hover {
   }
 
   h1, h2, p {
-    color: #362121;  /* Mengganti warna tulisan dalam tag h1, h2, atau p */
+    color: #362121;  
   }
   
   .intro h1 {
@@ -235,10 +232,9 @@ button[type="submit"]:hover {
   .btn {
     background-color: #362121;
   }
- 
-  
+
   footer {
-    background-color: transparent;  /* Menghilangkan warna latar belakang footer */
+    background-color: transparent; 
     margin-top: auto;
     padding: 2em;
     font-size: 0.9rem;
